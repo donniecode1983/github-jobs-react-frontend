@@ -7,8 +7,8 @@ const ACTIONS = {
     ERROR: 'error'
 }
 
-const BASE_URL = 'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json'
-
+// const BASE_URL = 'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json'
+const BASE_URL = 'http://localhost:3000/data.json'
 const reducer = (state, action) => {
     switch (action.type) {
         case ACTIONS.MAKE_REQUEST:
